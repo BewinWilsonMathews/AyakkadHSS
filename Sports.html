@@ -11,7 +11,28 @@
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 7.7.3, nicepage.com">
     
-    
+                <style>
+  /* Modern dropdown menu styles */
+  .u-nav-popup {
+    background-color: #F2FF19 !important; /* Light background for readability */
+    color: #333333;                        /* Dark text for contrast */
+    border-radius: 8px;                   /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft shadow */
+    padding: 10px;
+    z-index: 1000;                        /* Ensure it appears above other content */
+  }
+
+  .u-nav-popup a.u-nav-link {
+    color: #222222 !important;           /* Ensure dropdown links are visible */
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+
+  .u-nav-popup a.u-nav-link:hover {
+    background-color: #f2f2f2;           /* Hover effect for links */
+    border-radius: 4px;
+  }
+</style>
     
     
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
@@ -30,7 +51,7 @@
         <a href="#" class="u-image u-logo u-image-1" data-image-width="200" data-image-height="200">
           <img src="images/logo.jpg" class="u-logo-image u-logo-image-1">
         </a>
-        <nav class="u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1">
+       <nav class="u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1.25rem; letter-spacing: 0px;">
             <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
               <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
@@ -40,8 +61,13 @@
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 13px;">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About.html" style="padding: 10px 13px;">About</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 13px;">Academics</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Faculty.html">Faculties</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 13px;">About</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html">History</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Management.html">Management</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Alumni.html">Alumni</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 13px;">Academics</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Faculty.html">Staff Team</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Principal.html">Instituition Head</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Infastructure.html">Infrastructure</a>
 </li></ul>
 </div>
@@ -51,34 +77,42 @@
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Scouts.html">Scouts &amp; Guides</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="NSS.html">NSS</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="CEEP.html">CEEP</a>
-</li></ul>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Career.html">Career Guidance</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Souhrida.html">Souhrida Club</a></li></ul>
 </div>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Achievements.html" style="padding: 10px 13px;">Achievements</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 13px;">Admissions</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 10px 13px;">Contact</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Admission.html" style="padding: 10px 13px;">Admission</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Contact.html" style="padding: 10px 13px;">Contact</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html">About</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Academics</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Faculty.html">Faculties</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">About</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html">History</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Management.html">Management</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Alumni.html">Alumni</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Academics</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Faculty.html">Staff Team</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Principal.html">Instituition Head</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Infastructure.html">Infrastructure</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Co-Curricular</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link">Sports</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Arts</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link">NCC</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Scouts &amp; Guides</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link">NSS</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link">CEEP</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Co-Curricular</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Sports.html">Sports</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Arts.html">Arts</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="NCC.html">NCC</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Scouts.html">Scouts &amp; Guides</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="NSS.html">NSS</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="CEEP.html">CEEP</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Career.html">Career Guidance</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Souhrida.html">Souhrida Club</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Infastructure.html">Achievements</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Admissions</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#">Contact</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Achievements.html">Achievements</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Admission.html">Admission</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html">Contact</a>
 </li></ul>
               </div>
             </div>
@@ -116,7 +150,7 @@
             </div>
             <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-2">
               <div class="u-back-slide" data-image-width="200" data-image-height="200">
-                <img class="u-back-image u-expanded" src="images/bc1.jpeg">
+                <img class="u-back-image u-expanded" src="images/Sports1.jpg">
               </div>
               <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-2">
                 <h3 class="u-gallery-heading"></h3>
@@ -125,7 +159,7 @@
             </div>
             <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-3" data-image-width="200" data-image-height="200">
               <div class="u-back-slide">
-                <img class="u-back-image u-expanded" src="images/bc2.jpeg">
+                <img class="u-back-image u-expanded" src="images/bc1.jpeg">
               </div>
               <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-3"></div>
               <style data-mode="XL"></style>
@@ -135,6 +169,28 @@
               <style data-mode="XS"></style>
             </div>
             <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-4" data-image-width="1080" data-image-height="1792">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="images/Sports2.jpg">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-4"></div>
+              <style data-mode="XL"></style>
+              <style data-mode="LG"></style>
+              <style data-mode="MD"></style>
+              <style data-mode="SM"></style>
+              <style data-mode="XS"></style>
+            </div>
+ <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-4" data-image-width="1080" data-image-height="1792">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="images/bc2.jpeg">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-4"></div>
+              <style data-mode="XL"></style>
+              <style data-mode="LG"></style>
+              <style data-mode="MD"></style>
+              <style data-mode="SM"></style>
+              <style data-mode="XS"></style>
+            </div>
+ <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-4" data-image-width="1080" data-image-height="1792">
               <div class="u-back-slide">
                 <img class="u-back-image u-expanded" src="images/bc3.jpeg">
               </div>
